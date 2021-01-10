@@ -13,6 +13,7 @@ const WLetterTitle = styled.h1`
   font-family: "Domine", serif;
   color: rgba(188, 75, 32);
   margin: auto;
+  background: blue;
 `;
 
 export default function NavBar({ title }) {
