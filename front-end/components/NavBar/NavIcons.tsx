@@ -1,6 +1,22 @@
+import styled from "styled-components";
+
+const WIcons = styled.div`
+  margin: auto;
+  display: flex;
+  div {
+    margin: 15px;
+    svg {
+      transition: 1s;
+      :hover {
+        color: green;
+      }
+    }
+  }
+`;
+
 export default function NavIcons() {
   return (
-    <div style={{ display: "flex" }}>
+    <WIcons>
       <div style={{ width: "25px" }}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -33,6 +49,6 @@ export default function NavIcons() {
           />
         </svg>
       </div>
-    </div>
+    </WIcons>
   );
 }

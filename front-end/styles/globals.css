@@ -6,6 +6,17 @@ body,
 #__next {
   min-height: 100vh;
   display: grid;
+  width: 100vw;
+}
+
+#__next {
+  justify-content: center;
+  padding-top: 25px;
+  margin-top: 0px;
+  padding-right: 5vw;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 5vw;
 }
 
 a {

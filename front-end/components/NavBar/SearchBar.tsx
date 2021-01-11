@@ -6,6 +6,8 @@ const SearchBar = styled.div`
   display: grid;
   border-radious: 5p;
   margin: 20px;
+  width: 80%;
+  margin: auto;
   span {
     margin: auto;
     font-size: 16px;
