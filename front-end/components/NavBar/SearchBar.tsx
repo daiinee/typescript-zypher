@@ -19,7 +19,7 @@ const SearchBar = styled.div`
 export default function Search() {
   return (
     <SearchBar>
-      <span>Search...</span>
+      <span>Search..</span>
     </SearchBar>
   );
 }
