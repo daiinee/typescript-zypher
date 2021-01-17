@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import SearchBar from "./SearchBar";
 import NavIcons from "./NavIcons";
+import CenterTitle from "./CenterTitle";
 
 const WNavBar = styled.div`
+  justify-self: center;
   width: 90vw;
   padding: 20px;
   max-width: calc(1370px + 0px);
@@ -17,18 +19,11 @@ const WNavBar = styled.div`
   }
 `;
 
-const WLetterTitle = styled.h1`
-  font-size: 33px;
-  margin: auto;
-  font-family: "Domine", serif;
-  color: rgba(188, 75, 32);
-`;
-
 export default function NavBar({ title }) {
   return (
     <WNavBar>
       <SearchBar />
-      <WLetterTitle>{title}</WLetterTitle>
+      <CenterTitle>{title}</CenterTitle>
       <NavIcons />
     </WNavBar>
   );
