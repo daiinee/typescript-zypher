@@ -14,6 +14,10 @@ const SearchBar = styled.div`
     color: gray;
     font-family: "Inter", sans-serif;
   }
+  @media (max-width: 680px) {
+    order: 3;
+    width: 100% !important;
+  } ;
 `;
 
 export default function Search() {

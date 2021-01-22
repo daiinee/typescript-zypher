@@ -1,18 +1,9 @@
 import styled from "styled-components";
 
 const WIcons = styled.div`
-  background: blue;
-  display: flex;
-  grid-area: footer;
-  div {
-    margin: 15px;
-    svg {
-      transition: 1s;
-      :hover {
-        color: green;
-      }
-    }
-  }
+  width: 25%;
+  @media (max-width: 680px) {
+  } ;
 `;
 
 export default function NavIcons() {
