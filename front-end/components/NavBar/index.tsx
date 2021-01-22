@@ -7,10 +7,11 @@ const WNavBar = styled.div`
   justify-self: center;
   width: 90vw;
   padding: 20px;
+  background: yellow;
   max-width: calc(1370px + 0px);
   margin-left: calc(-0px / 2);
   margin-right: calc(-0px / 2);
-  height: 181px;
+  height: 180px;
   display: grid;
   grid: 1fr / 1fr 2fr 1fr;
   border-bottom: 1px solid #dbdbdb;

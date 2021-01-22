@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const WIcons = styled.div`
-  margin: auto;
+  background: blue;
   display: flex;
   div {
     margin: 15px;
