@@ -3,6 +3,7 @@ import styled from "styled-components";
 const WIcons = styled.div`
   background: blue;
   display: flex;
+  grid-area: footer;
   div {
     margin: 15px;
     svg {
