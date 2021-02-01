@@ -36,7 +36,7 @@ const Parent = () => {
         timeout={appearDuration}
         unmountOnExit
       >
-        <Container>This will have the appear transition applied!</Container>
+        <Container>This will have the appear transition applied..</Container>
       </CSSTransition>
       <button onClick={() => setshowMessage(!showMessage)}>Apply</button>
     </>
